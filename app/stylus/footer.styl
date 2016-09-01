@@ -1,0 +1,72 @@
+.footer
+	padding-top 15px
+	text-align center
+	background-color white
+	font-size 1rem
+	position relative
+	&:before
+		content ''
+		position absolute
+		height 10px
+		width 100%
+		left 0
+		top -10px
+		background linear-gradient(to top, rgba(black, 0.1) 0, transparent)
+	+above(880px)
+		font-size 0.8rem
+	.copyright, .made-by, .socials
+		margin 20px 0
+	+above(880px)
+		text-align left
+		.logo
+			float left
+			margin-right 50px
+		.contact-block
+			float right
+			margin-top 0
+		.footer-nav
+			float left
+			width 500px
+			padding-top 10px
+			a, span
+				font-size 0.857rem
+				width 25%
+				margin-right -3px
+				text-transform uppercase
+				display inline-block
+				font-weight 700
+				text-decoration none
+				margin-top 5px
+				margin-bottom 5px
+				padding-right 10px
+				vertical-align top
+				line-height 1.5
+				transition all 0.3s
+				&:hover
+					color $blue
+			span
+				color $blue
+		.bottom
+			clear both
+			padding-top 10px
+			padding-bottom 2px
+			clearfix()
+		.socials
+			margin 0
+			a
+				opacity 1
+			float right
+		.made-by
+			float right
+			margin-right 50px
+			margin-top 8px
+		.copyright
+			float left
+			margin 0
+	+above(1200px)
+		.logo
+			margin-right 140px
+		.footer-nav
+			width 700px
+		.made-by
+			margin-right 130px
