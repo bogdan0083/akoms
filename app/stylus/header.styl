@@ -66,6 +66,12 @@
 	margin-top 2px
 	text-decoration none
 	position relative
+	&:hover
+		color $orange
+		.icon
+			sprite($user_orange)
+		> a:after
+			border-color $orange transparent transparent transparent
 	i
 		margin-right 10px
 	&.open .dropdown-menu

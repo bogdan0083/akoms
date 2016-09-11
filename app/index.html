@@ -43,7 +43,7 @@
                         <a class="icon fb" href=""></a>
                         <a class="icon inst" href=""></a>
                     </div>
-                    <a href="" class="login-block">
+                    <a href="#login-popup" class="login-block fancybox-modal">
                         <i class="icon i-user"></i>
                         <span>Вход / Регистрация</span>
                     </a>
@@ -69,7 +69,7 @@
             <section class="promo">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="100%" height="100%" fill="#E7E7E8" />
-                    <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/room-before.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+                    <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/room-before.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMin slice" />
                 </svg>
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <defs>
@@ -79,7 +79,7 @@
                     </defs>
                     <g clip-path="url(#mask)">
                         <rect width="100%" height="100%" fill="#272730" />
-                        <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/room-after.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+                        <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/room-after.jpg" width="100%" height="100%" preserveAspectRatio="xMidYMin slice" />
                     </g>
                     <circle id="circle-shadow" cx="50%" cy="50%" r="8%" style="stroke: #fff; fill: transparent; stroke-width: 5;" />
                 </svg>
@@ -120,6 +120,7 @@
             </section>
             <div class="video-block">
                 <div class="tv">
+                    <div class="video"></div>
                 </div>
             </div>
             <section class="examination">
@@ -240,26 +241,38 @@
                         <div class="box-item box-item-green wow fadeInDownBig">
                             <div class="box-container">
                                 <h4>Сервис «Стандарт»</h4>
-                                <p>от 83 руб/мес
-                                    <br>(1000 руб/год)</p>
+                                <p>от 83
+                                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z" /></svg>/мес
+                                        <br>(1000
+                                        <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z" /></svg>/год)</p>
                             </div>
-                            <a href="" class="link">Подробнее</a>
+                            <a href="#tariff-popup-green" class="link fancybox-modal">Подробнее</a>
                         </div>
                         <div class="box-item box-item-blue wow fadeInDownBig">
                             <div class="box-container">
                                 <h4>Сервис <br>«Плюс»</h4>
-                                <p>от 49 руб/мес
-                                    <br>(5900 руб/год)</p>
+                                <p>от 49
+                                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z"></svg>/мес
+                                        <br>(5900
+                                        <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z"/></svg>/год)</p>
                             </div>
-                            <a href="" class="link">Подробнее</a>
+                            <a href="#tariff-popup-blue" class="link fancybox-modal">Подробнее</a>
                         </div>
                         <div class="box-item box-item-orange wow fadeInDownBig">
                             <div class="box-container">
                                 <h4>Сервис «Премиум»</h4>
-                                <p>от 975 руб/мес
-                                    <br>(11700 руб/год)</p>
+                                <p>от 975
+                                    <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z" /></svg>/мес
+                                        <br>(11700
+                                        <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z" /></svg>/год)</p>
                             </div>
-                            <a href="" class="link">Подробнее</a>
+                            <a href="#tariff-popup-orange" class="link fancybox-modal">Подробнее</a>
                         </div>
                     </div>
                     <div class="steel-block-long">
@@ -271,7 +284,7 @@
                                     <p>Приведи друга или соседа
                                         <br> обслуживаться в АКОМС
                                         <br> и получи 300 рублей на счет </p>
-                                    <a href="" class="btn">Узнать как</a>
+                                    <a href="#gift-popup" class="btn fancybox-modal">Узнать как</a>
                                 </div>
                             </div>
                             <div class="bonus-sertificats wow fadeInDownBig">
@@ -281,7 +294,7 @@
                                     <p>Подключите родителей
                                         <br> или близких к сервису АКОМС
                                         <br> и не беспокойтесь за их безопасность!</p>
-                                    <a href="" class="btn">Узнать как</a>
+                                    <a href="#sertificat-popup" class="btn fancybox-modal">Узнать как</a>
                                 </div>
                             </div>
                         </div>
@@ -316,6 +329,7 @@
                     <a href="">Акции</a>
                     <a href="">полезные статьи</a>
                     <a href="">Контакты</a>
+                    <a href="">Вход/Регистрация</a>
                 </nav>
                 <div class="contact-block hidden-xs">
                     <span class="phone"><i class="icon i-phone"></i><span>8-800-222-11-11</span></span>
@@ -349,6 +363,172 @@
             <span class="popup-caption">Мы не занимаемся рассылкой рекламных сообщений,<br> а также не передаем данные третьим лицам</span>
         </div>
         <!-- end popup-form -->
+        <!-- begin gift-form -->
+        <div class="gift-popup" id="gift-popup">
+            <a href="javascript:$.fancybox.close()" class="close"></a>
+            <h2>Получить 300 рублей!</h2>
+            <h4>Введите контактные данные, менеджер свяжется с Вами в ближайшее время</h4>
+            <form>
+                <input type="text" class="field" placeholder="Имя" name="person-name">
+                <input type="text" class="field" placeholder="Телефон" name="phone">
+                <input type="text" class="field" placeholder="Регион" name="region">
+                <button class="btn btn-red">Отправить</button>
+            </form>
+            <span class="popup-caption">Мы не занимаемся рассылкой рекламных сообщений,<br> а также не передаем данные третьим лицам</span>
+        </div>
+        <!-- end gift-form -->
+        <!-- begin sertificat-form -->
+        <div class="sertificat-popup" id="sertificat-popup">
+            <a href="javascript:$.fancybox.close()" class="close"></a>
+            <h2>Подключить<br>родителей или близких!</h2>
+            <h4>Введите контактные данные, менеджер свяжется с Вами в ближайшее время</h4>
+            <form>
+                <input type="text" class="field" placeholder="Имя" name="person-name">
+                <input type="text" class="field" placeholder="Телефон" name="phone">
+                <input type="text" class="field" placeholder="Регион" name="region">
+                <button class="btn btn-red">Отправить</button>
+            </form>
+            <span class="popup-caption">Мы не занимаемся рассылкой рекламных сообщений,<br> а также не передаем данные третьим лицам</span>
+        </div>
+        <!-- end sertificat-form -->
+        <!-- begin sertificat-form -->
+        <div class="login-popup" id="login-popup">
+            <a href="javascript:$.fancybox.close()" class="close"></a>
+            <h2>Вход в личный кабинет</h2>
+            <form>
+                <input type="text" class="field" placeholder="№ договора или e-mail" name="agreement">
+                <input type="text" class="field" placeholder="Телефон" name="phone">
+                <div class="login-popup-wrap">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="checkbox">
+                                <input type="checkbox"><span>запомнить</span></label>
+                        </div>
+                        <div class="col-md-6">
+                            <button class="btn btn-red">Войти</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="login-popup-bottom">
+                <a href="" class="recovery-link">восстановление пароля</a><a href="" class="reg-link">регистрация</a>
+            </div>
+        </div>
+        <!-- end sertificat-form -->
+        <!-- begin tariff-popup-green -->
+        <div class="tariff-popup tariff-popup-green" id="tariff-popup-green">
+            <a href="javascript:$.fancybox.close()" class="close"></a>
+            <div class="tariff-item tariff-item-green">
+                <h2>Тариф Сервис «Стандарт» <span class="tariff-price-wrap"><span class="tariff-price price">от 89
+                        <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z" />
+                        </svg>/мес (1000 <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z" />
+                        </svg>/год)</span></span></h2>
+                <ul class="tariff-item-list">
+                    <li class="tariff-list-active">Чистка сифона мойки/умывальника – 2 шт.</li>
+                    <li class="tariff-list-active">Чистка сифона ванны – 1 шт.</li>
+                    <li class="tariff-list-active">Чистка сетки смесителя – 3 шт.</li>
+                    <li class="tariff-list-active">Приборная проверка загазованности и устранение протечки газа</li>
+                    <li class="tariff-list-active">Профессиональный осмотр электрики и устранение мелких неисправностей</li>
+                    <li class="tariff-list-active">Профессиональный осмотр системы отопления и устранение мелких неисправностей</li>
+                    <li class="tariff-list-active">Чистка 2-х фильтров грубой очистки или чистка смывной арматуры бочка</li>
+                    <li>Установка фильтра тонкой очистки (3 ступени)</li>
+                    <li>Диагностика и устранение неисправностей унитаза</li>
+                    <li>Диагностика и устранение неисправностей водонагревателя</li>
+                    <li>Диагностика и устранение неисправностей стиральной или посудомоечной машины</li>
+                    <li>Диагностика и устранение неисправностей 3-з пластиковых окон</li>
+                    <li>Диагностика работы кондиционера и устранение неисправностей</li>
+                    <li>Диагностика вентканала и устранение мелких неисправностей
+                    </li>
+                </ul>
+                <div class="tariff-item-bottom">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <input type="text" class="field" placeholder="Имя" name="person-name">
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <input type="text" class="field" placeholder="Телефон" name="phone">
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <input type="text" class="field" placeholder="Регион" name="region">
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <button class="btn btn-red">Выбрать тариф</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- tariff-popup-green -->
+        <!-- begin tariff-popup-blue -->
+        <div class="tariff-popup tariff-popup-blue" id="tariff-popup-blue">
+            <a href="javascript:$.fancybox.close()" class="close"></a>
+            <div class="tariff-item tariff-item-blue">
+                <h2>Тариф Сервис «Плюс» <span class="tariff-price-wrap"><span class="tariff-price price">от 491
+                        <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z" />
+                        </svg>/мес (5900 <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z" />
+                        </svg>/год)</span></span></h2>
+                <ul class="tariff-item-list">
+                    <li class="tariff-list-active">Чистка сифона мойки/умывальника – 2 шт.</li>
+                    <li class="tariff-list-active">Чистка сифона ванны – 1 шт.</li>
+                    <li class="tariff-list-active">Чистка сетки смесителя – 3 шт.</li>
+                    <li class="tariff-list-active">Приборная проверка загазованности и устранение протечки газа</li>
+                    <li class="tariff-list-active">Профессиональный осмотр электрики и устранение мелких неисправностей</li>
+                    <li class="tariff-list-active">Профессиональный осмотр системы отопления и устранение мелких неисправностей</li>
+                    <li class="tariff-list-active">Чистка 2-х фильтров грубой очистки или чистка смывной арматуры бочка</li>
+                    <li>Установка фильтра тонкой очистки (3 ступени)</li>
+                    <li class="tariff-list-active">Диагностика и устранение неисправностей унитаза</li>
+                    <li class="tariff-list-active">Диагностика и устранение неисправностей водонагревателя</li>
+                    <li class="tariff-list-active">Диагностика и устранение неисправностей стиральной или посудомоечной машины</li>
+                    <li class="tariff-list-active">Диагностика и устранение неисправностей 3-з пластиковых окон</li>
+                    <li class="tariff-list-active">Диагностика работы кондиционера и устранение неисправностей</li>
+                    <li class="tariff-list-active">Диагностика вентканала и устранение мелких неисправностей
+                    </li>
+                </ul>
+                <div class="tariff-item-bottom">
+                    <button class="btn btn-red">Выбрать тариф</button>
+                </div>
+            </div>
+        </div>
+        <!-- tariff-popup-blue -->
+        <!-- begin tariff-popup-orange -->
+        <div class="tariff-popup tariff-popup-orange" id="tariff-popup-orange">
+            <a href="javascript:$.fancybox.close()" class="close"></a>
+            <div class="tariff-item tariff-item-orange">
+                <h2>Тариф Сервис «Премиум» <span class="tariff-price-wrap"><span class="tariff-price price">от 975
+                        <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z" />
+                        </svg>/мес (11700 <svg width="14" height="14" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1299 565q0-100-65-162t-171-62h-320v448h320q106 0 171-62t65-162zm237 0q0 193-126.5 315t-326.5 122h-340v118h505q14 0 23 9t9 23v128q0 14-9 23t-23 9h-505v192q0 14-9.5 23t-22.5 9h-167q-14 0-23-9t-9-23v-192h-224q-14 0-23-9t-9-23v-128q0-14 9-23t23-9h224v-118h-224q-14 0-23-9t-9-23v-149q0-13 9-22.5t23-9.5h224v-629q0-14 9-23t23-9h539q200 0 326.5 122t126.5 315z" />
+                        </svg>/год)</span></span></h2>
+                <ul class="tariff-item-list">
+                    <li class="tariff-list-active">Чистка сифона мойки/умывальника – 2 шт.</li>
+                    <li class="tariff-list-active">Чистка сифона ванны – 1 шт.</li>
+                    <li class="tariff-list-active">Чистка сетки смесителя – 3 шт.</li>
+                    <li class="tariff-list-active">Приборная проверка загазованности и устранение протечки газа</li>
+                    <li class="tariff-list-active">Профессиональный осмотр электрики и устранение мелких неисправностей</li>
+                    <li class="tariff-list-active">Профессиональный осмотр системы отопления и устранение мелких неисправностей</li>
+                    <li class="tariff-list-active">Чистка 2-х фильтров грубой очистки или чистка смывной арматуры бочка</li>
+                    <li class="tariff-list-active">Установка фильтра тонкой очистки (3 ступени)</li>
+                    <li class="tariff-list-active">Диагностика и устранение неисправностей унитаза</li>
+                    <li class="tariff-list-active">Диагностика и устранение неисправностей водонагревателя</li>
+                    <li class="tariff-list-active">Диагностика и устранение неисправностей стиральной или посудомоечной машины</li>
+                    <li>Диагностика и устранение неисправностей 3-з пластиковых окон</li>
+                    <li>Диагностика работы кондиционера и устранение неисправностей</li>
+                    <li class="tariff-list-active">Диагностика вентканала и устранение мелких неисправностей
+                    </li>
+                </ul>
+                <div class="tariff-item-bottom">
+                    <span class="tariff-item-current">это ваш тариф</span>
+                </div>
+            </div>
+        </div>
+        <!-- tariff-popup-orange -->
     </div>
     <!-- build:js scripts/jquery.min.js-->
     <!-- bower:js-->
